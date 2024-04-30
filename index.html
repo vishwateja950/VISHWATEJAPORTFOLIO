@@ -1,271 +1,290 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vishwateja Thogari</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index.css" />
     <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> -->
-    
-</head>
-<body>
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
+  </head>
+  <body>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <div class="scroll-watcher"></div>
     <div class="container">
-        <div class="navbar">
-          <!-- <div class="logo">
+      <div class="navbar">
+        <!-- <div class="logo">
             <h1 class="logo1">   <a href="/HomePage/">VishwaTeja Thogari</a></h1>
          
           </div> -->
-          <a href="#home"><h1>VISHWATEJA THOGARI</h1></a>
-          <nav>
-            <ul id="menuItems">
-              <a href="#home"> <li>Home</li> </a>
-              <a href="#about"> <li>About</li> </a>
-              <a href="#skills"><li>Skills</li></a>
-              <a href="#projects"><li>My Projects</li></a>
-              <a href="#contact"> <li>Contact</li> </a>
-              <!-- <a href="/All Products/product.html"> <li>Products</li> </a>
+        <a href="#home"><h1 class="nav-title">VISHWATEJA THOGARI</h1></a>
+        <nav>
+          <ul id="menuItems">
+            <a href="#home"> <li>Home</li> </a>
+            <a href="#about"> <li>About</li> </a>
+            <a href="#skills"><li>Skills</li></a>
+            <a href="#projects"><li>My Projects</li></a>
+            <a href="#contact"> <li>Contact</li> </a>
+            <!-- <a href="/All Products/product.html"> <li>Products</li> </a>
               <a href="/Account/account.html"> <li>Account</li> </a> -->
-            </ul>
-            
-  
-            <img 
-              src="https://cdn-icons-png.freepik.com/256/10337/10337095.png?uid=R60293152&ga=GA1.1.1412288193.1703657962&semt=ais_hybrid"
-              alt="menu"
-              class="menu-icon"
-              width="30px"
-              height="35px"
-              style="margin-left: 20px; padding-top: 2px; cursor: pointer"
-              onclick="onToggle()"
-            />
-            <!-- <a href="/FacebookLogin/fecebook.html"
+          </ul>
+
+          <img
+            src="https://cdn-icons-png.freepik.com/256/10337/10337095.png?uid=R60293152&ga=GA1.1.1412288193.1703657962&semt=ais_hybrid"
+            alt="menu"
+            class="menu-icon"
+            width="30px"
+            height="35px"
+            style="margin-left: 20px; padding-top: 2px; cursor: pointer"
+            onclick="onToggle()"
+          />
+          <!-- <a href="/FacebookLogin/fecebook.html"
               ><button class="logout-btn" style="margin-left: 15px">
                 Logout
               </button></a
             > -->
-          </nav>
-        </div>
+        </nav>
       </div>
-  
-  
-      <script>
-        let menuIltesList = document.getElementById("menuItems");
-        menuIltesList.style.maxHeight = "0px";
-    
-       function onToggle(){
-            if(menuIltesList.style.maxHeight == "0px"){
-                menuIltesList.style.maxHeight = "200px";
-            }
-            else{
-                menuIltesList.style.maxHeight = "0px";
-            }
-       }
-    
-    
-    
+    </div>
+
+    <script>
+      let menuIltesList = document.getElementById("menuItems");
+      menuIltesList.style.maxHeight = "0px";
+
+      function onToggle() {
+        if (menuIltesList.style.maxHeight == "0px") {
+          menuIltesList.style.maxHeight = "200px";
+        } else {
+          menuIltesList.style.maxHeight = "0px";
+        }
+      }
     </script>
-      <!-----------------------------Home------------------------------------------------>
-      <div class="home-container"  id="home">
-        <div class="home-cont1" data-aos="fade-right"
-        data-aos-offset="300"
-        data-aos-easing="ease-in-sine">
-          <h2 class="mm">
-            Hi, I AM VISHWATEJA, A FRONTEND DEVELOPER. I SPECIALISE IN CREATING
-          </h2>
-  
-          <div><span class="ip">USER SOLUTIONS.</span></div>
-  
-          <div>
-            <button class="btn2">
-              <a href="images/vishwaTeja.pdf">Download Resume</a>
-            </button>
-          </div>
-          <!-- <div>
-               <button class="btn2">
-                <a href="assets/images/vishwaTeja.pdf"> my Resume</a>
-              </button>
-            </div> -->
-        </div>
-        <div class="img-cont" data-aos="fade-left"
-        data-aos-offset="300"
-        data-aos-easing="ease-in-sine">
-          <img src="images/bg1-removebg-preview.png" class="img" />
-        </div>
+    <!-----------------------------Home------------------------------------------------>
+    <div class="home-container" id="home" >
+      <div class="sub-cont" data-aos="fade-right"
+      data-aos-offset="300"
+      data-aos-easing="ease-in-sine">
+        <h2 class="mm">
+          Hi, I AM VISHWATEJA, A FRONTEND DEVELOPER. I SPECIALISE IN CREATING
+        </h2>
+
+        <div><span class="ip">USER SOLUTIONS.</span></div>
+
+        <button class="btn2">
+          <a href="images/vishwaTeja.pdf">Download Resume</a>
+        </button>
       </div>
-      <!----------------------------------About------------------------------------------------------->
-      <div>
-        <div class="about-container" id="about">
-          <div class="about-cont1" data-aos="fade-right"
-          data-aos-offset="300"
-          data-aos-easing="ease-in-sine">
-            <img src="images/bg1-removebg-preview.png" alt="img" class="img" />
-          </div>
-  
-          <div class="about-cont2" data-aos="fade-left"
-          data-aos-offset="300"
-          data-aos-easing="ease-in-sine">
-            <h1 class="about-head">About Me</h1>
-            <div class="about-cont3">
-              <div class="about-cont4">
-                <h2 class="names">Name: Vishwateja Thogari</h2>
-              </div>
-              <div class="about-cont4">
-                <h2 class="names">Date of birth: January 04, 1999</h2>
-              </div>
-              <div class="about-cont4">
-                <h2 class="names">
-                  Address: Bhupalpally,JayashenkarBhupalpally,Telangana.
-                </h2>
-              </div>
-              <div class="about-cont4">
-                <h2 class="names">Zip Code: 506169</h2>
-              </div>
-              <div class="about-cont4">
-                <h2 class="names">Email:Vishwatejapatel1234@gmail.com</h2>
-              </div>
-              <div class="about-cont4">
-                <h2 class="names">Phone: +91 9505226910</h2>
-              </div>
-              <div
-                class="about-icons"
-                animated
-                fadeInRight
-                style="animation-delay: 1s"
-              >
-                <a href="https://www.linkedin.com/login"
-                  ><i class="fa-brands fa-linkedin"></i></a>
-                <a href="https://www.instagram.com/"
-                  ><i class="fa-brands fa-instagram"></i></a>
-                <a href="https://www.facebook.com/login/">
-                  <i class="fa-brands fa-facebook"></i
-                ></a>
-                <a
-                  href="https://twitter.com/login
-                  "
-                  ><i class="fa-brands fa-square-x-twitter"></i
-                ></a>
-                <a href="https://accounts.google.com/"
-                  ><i class="fa-solid fa-envelope"></i
-                ></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!---------------------------------------------Skills-------------------------------------------->
-      <div class="skills-container" id="skills">
-        <div class="skills-cont1">
-          <h1 class="skills-head">My Skills</h1>
-        </div>
-        <div class="skills-cont2" data-aos="fade-right">
-          <div class="skills-cont3">
-            <h5 class="cont2-head"><i class="fa-brands fa-html5"></i>HTML5</h5>
-            <div class="pp"><div class="ll1">99%</div></div>
-            <!-- <input type="range"/> -->
-          </div>
-          <br />
-          <div class="skills-cont3">
-            <h5 class="cont2-head"><i class="fa-brands fa-css3-alt"></i>CSS</h5>
-            <div class="pp">
-              <div class="ll2">99%</div>
-            </div>
-          </div>
-          <br />
-          <div class="skills-cont3">
-            <h5 class="cont2-head"><i class="fa-brands fa-js"></i>Javascript</h5>
-            <div class="pp"><div class="ll3">85%</div></div>
-          </div>
-          <div class="skills-cont3">
-            <h5 class="cont2-head"><i class="fa-brands fa-react"></i>React Js</h5>
-            <div class="pp"><div class="ll4">85%</div></div>
-          </div>
-          <div class="skills-cont3">
-            <h5 class="cont2-head"><i class="fa-brands fa-wordpress"></i>WordPress</h5>
-            <div class="pp"><div class="ll5">99%</div></div>
-          </div>
-          <div class="skills-cont3">
-            <h5 class="cont2-head"><i class="fa-brands fa-angular"></i>Angular JS</h5>
-  
-            <div class="pp"><div class="ll6">50%</div></div>
-          </div>
-        </div>
-      </div>
-      <!--------------------------------------------------------Projects----------------------------------->
-      <div class="projects-container" id="projects" >
-        <div class="Project-cont1">
-          <h1 class="Project-head">My Projects</h1>
-        </div>
-        <div class="project-cont2" data-aos="fade-right">
-          <img
-            src="images/Screenshot (2).png"
-            class="kk"
-          />
-          <img
-            src="images/Screenshot 2024-04-29 173611.png"
-            alt=""
-            class="kk"
-          />
-          <img
-            src="images/Screenshot 2024-04-29 173659.png"
-            class="kk"
-          />
-          <img
-            src="images/Screenshot 2024-04-29 173740.png"
-            class="kk"
-          />
-          <img
-          src="images/Screenshot 2024-04-29 173819.png"
-          class="kk"
-        />
+
+      <div class="sub-cont2" data-aos="fade-left"
+      data-aos-offset="300"
+      data-aos-easing="ease-in-sine">
         <img
-        src="images/Screenshot 2024-04-29 173928.png"
-        class="kk"
-      />
-          
-        </div>
+          src="images/bg1-removebg-preview.png"
+          alt="img"
+          class="image"
+        />
       </div>
-        
-      <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> -->
-      <!----------------------------------------------Contact-------------------------------------------->
-      <!-- <div class="visme_d" data-title="Untitled Project" data-url="pvm6ngdg-untitled-project?fullPage=true" data-domain="forms" data-full-page="true" data-min-height="100vh" data-form-id="60374"></div><script src="https://static-bundles.visme.co/forms/vismeforms-embed.js"></script> -->
+    </div>
+    <!----------------------------------About------------------------------------------------------->
+    <div>
+      <div class="about-container" id="about">
+        <div
+          class="sub-cont2"
+          data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+        >
+          <img src="images/bg1-removebg-preview.png" alt="img" class="image" />
+        </div>
 
-
-      <!-----------------------------------------------------Contact-------------------------------->
-      <div class="contact-conatiner" id="contact">
-        <form action="https://api.web3forms.com/submit" method="POST" class="contact-left" data-aos="fade-right"
-        data-aos-offset="300"
-        data-aos-easing="ease-in-sine">
-          <div class="contact-left-title">
-            <h2>Get In Touch</h2>
-            <hr>
+        <div
+          class="sub-cont"
+          data-aos="fade-left"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+        >
+          <h1 class="about-head">About Me</h1>
+          <div class="about-cont3">
+            <div class="about-cont4">
+              <h2 class="names">Name: Vishwateja Thogari</h2>
+            </div>
+            <div class="about-cont4">
+              <h2 class="names">Date of birth: January 04, 1999</h2>
+            </div>
+            <div class="about-cont4">
+              <h2 class="names">
+                Address: Bhupalpally,JayashenkarBhupalpally,Telangana.
+              </h2>
+            </div>
+            <div class="about-cont4">
+              <h2 class="names">Zip Code: 506169</h2>
+            </div>
+            <div class="about-cont4">
+              <h2 class="names">Email:Vishwatejapatel1234@gmail.com</h2>
+            </div>
+            <div class="about-cont4">
+              <h2 class="names">Phone: +91 9505226910</h2>
+            </div>
+            <div
+              class="about-icons"
+              animated
+              fadeInRight
+              style="animation-delay: 1s"
+            >
+              <a href="https://www.linkedin.com/login"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href="https://www.instagram.com/"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="https://www.facebook.com/login/">
+                <i class="fa-brands fa-facebook"></i
+              ></a>
+              <a
+                href="https://twitter.com/login
+                  "
+                ><i class="fa-brands fa-square-x-twitter"></i
+              ></a>
+              <a href="https://accounts.google.com/"
+                ><i class="fa-solid fa-envelope"></i
+              ></a>
+            </div>
           </div>
-          <input type="hidden" name="access_key" value="417465cc-cef4-49b6-bc51-31723df1c3fd">
-          <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
-          <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
-          <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
-          <button type="submit">Submit</button>
-        </form>
-        <div class="contact-right"  data-aos="fade-left"
-        data-aos-offset="300"
-        data-aos-easing="ease-in-sine">
-            <img src="images/right_img.png">
         </div>
       </div>
-        <!------------------------------------------copyright---------------->
+    </div>
+    <!---------------------------------------------Skills-------------------------------------------->
+    <div class="skills-container" id="skills">
+      <div class="skills-cont1">
+        <h1 class="skills-head">My Skills</h1>
+      </div>
+      <div class="skills-cont2" data-aos="fade-right">
+        <div class="skills-cont3">
+          <h5 class="cont2-head"><i class="fa-brands fa-html5"></i>HTML5</h5>
+          <div class="pp"><div class="ll1">99%</div></div>
+          <!-- <input type="range"/> -->
+        </div>
+        <br />
+        <div class="skills-cont3">
+          <h5 class="cont2-head"><i class="fa-brands fa-css3-alt"></i>CSS</h5>
+          <div class="pp">
+            <div class="ll2">99%</div>
+          </div>
+        </div>
+        <br />
+        <div class="skills-cont3">
+          <h5 class="cont2-head"><i class="fa-brands fa-js"></i>Javascript</h5>
+          <div class="pp"><div class="ll3">85%</div></div>
+        </div>
+        <div class="skills-cont3">
+          <h5 class="cont2-head"><i class="fa-brands fa-react"></i>React Js</h5>
+          <div class="pp"><div class="ll4">85%</div></div>
+        </div>
+        <div class="skills-cont3">
+          <h5 class="cont2-head">
+            <i class="fa-brands fa-wordpress"></i>WordPress
+          </h5>
+          <div class="pp"><div class="ll5">99%</div></div>
+        </div>
+        <div class="skills-cont3">
+          <h5 class="cont2-head">
+            <i class="fa-brands fa-angular"></i>Angular JS
+          </h5>
+
+          <div class="pp"><div class="ll6">50%</div></div>
+        </div>
+      </div>
+    </div>
+    <!--------------------------------------------------------Projects----------------------------------->
+    <div class="projects-container" id="projects">
+      <div class="Project-cont1">
+        <h1 class="Project-head">My Projects</h1>
+      </div>
+      <div class="project-cont2" data-aos="fade-right">
+        <img src="images/Screenshot (2).png" alt="aaa" class="kk" />
+        <img src="images/Screenshot 2024-04-29 173611.png" alt="aaa" class="kk" />
+        <img src="images/Screenshot 2024-04-29 173659.png" alt="aaa" class="kk" />
+        <img src="images/Screenshot 2024-04-29 173740.png" alt="aaa" class="kk" />
+        <img src="images/Screenshot 2024-04-29 173819.png" alt="aaa" class="kk" />
+        <img src="images/Screenshot 2024-04-29 173928.png" alt="aaa" class="kk" />
+      </div>
+    </div>
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> -->
+    <!----------------------------------------------Contact-------------------------------------------->
+    <!-- <div class="visme_d" data-title="Untitled Project" data-url="pvm6ngdg-untitled-project?fullPage=true" data-domain="forms" data-full-page="true" data-min-height="100vh" data-form-id="60374"></div><script src="https://static-bundles.visme.co/forms/vismeforms-embed.js"></script> -->
+
+    <!-----------------------------------------------------Contact-------------------------------->
+    <div class="contact-conatiner" id="contact">
+      <form
+        action="https://api.web3forms.com/submit"
+        method="POST"
+        class="contact-left"
+        data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine"
+      >
+        <div class="contact-left-title">
+          <h2>Get In Touch</h2>
+          <hr />
+        </div>
+        <input
+          type="hidden"
+          name="access_key"
+          value="417465cc-cef4-49b6-bc51-31723df1c3fd"
+        />
+        <input
+          type="text"
+          name="name"
+          placeholder="Your Name"
+          class="contact-inputs"
+          required
+        />
+        <input
+          type="email"
+          name="email"
+          placeholder="Your Email"
+          class="contact-inputs"
+          required
+        />
+        <textarea
+          name="message"
+          placeholder="Your Message"
+          class="contact-inputs"
+          required
+        ></textarea>
+        <button type="submit">Submit</button>
+      </form>
+      <div
+        class="contact-right"
+        data-aos="fade-left"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine"
+      >
+        <img src="images/right_img.png" />
+      </div>
+    </div>
+    <!------------------------------------------copyright---------------->
     <div class="card11">
       <hr />
-      <h3>Copyright © 2024 <span>VishwaTeja Thogari</span>, All rights reserved.</h3>
+      <h3>
+        Copyright © 2024 <span>VishwaTeja Thogari</span>, All rights reserved.
+      </h3>
     </div>
-</body>
+  </body>
 </html>
